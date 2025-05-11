@@ -23,6 +23,10 @@ footer a {
     margin: 0 10px;
 }
 
+footer p{
+    margin-bottom: 10px;
+}
+
 .fb {
     color: #1877F2;
 }
@@ -51,7 +55,7 @@ footer a {
 }
 
 .info {
-    width: 380px;
+    width: 300px;
     box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
