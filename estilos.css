@@ -91,6 +91,7 @@ footer a {
 .info p {
     font-size: 20px;
     color: #3c3838;
+    text-align: center;
 }
 
 /* Estilo para las secciones ocultas */
@@ -352,10 +353,6 @@ video {
     margin-bottom: 25px;
 }
 
-p,
-h2 {
-    margin: 30px;
-}
 
 @media (max-width: 850px) {
 
@@ -370,11 +367,6 @@ h2 {
         top: 0;
         right: 0;
         transition: transform 0.3s ease;
-    }
-
-    p,
-    h2 {
-        text-align: justify;
     }
 
     .abrir-menu {
@@ -455,6 +447,12 @@ h2 {
     .imagenes{
         max-width: 80%;
         max-height: auto;
+    }
+
+    section p{
+        text-align: justify;
+        width: 100%;
+        margin: 0 auto;
     }
 
 
